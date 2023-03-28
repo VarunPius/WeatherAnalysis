@@ -103,25 +103,45 @@ def process_epoch_time(epoch_time):
     return dt
 
 
+# Convert Epoch timestamp in dataset to readable date format
+# -------------------------------------------------------------------------------------------------------------------------------------------------- #
+def get_epoch_time():
+    logging.info("Converting UTC to epoch time")
+
+    today = datetime.date.today()
+    date_time = datetime.datetime(today.year, today.month, today.day, 11, 30)
+    epoch_time_today = time.mktime(date_time.timetuple())
+
+    epoch_times = []
+    epoch_times.append(int(epoch_time_today))
+    for i in range(1, 5):
+        ep_calc = epoch_time_today - (i * 86400)
+        epoch_times.append(int(ep_calc))
+
+    return epoch_times
+
+     
 # Get data from APIs
 # -------------------------------------------------------------------------------------------------------------------------------------------------- #
-def get_data(API_key, city):
+def get_data(API_key, city, ep_tm):
     logging.info("Initializing city parameters")
     lat = city[0]
     lon = city[1]
-    url = f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={API_key}"
+
+    url = f"https://api.openweathermap.org/data/3.0/onecall/timemachine?lat={lat}&lon={lon}&dt={ep_tm}&appid={API_key}"
 
     logging.info("Sending weather data request")
     weather_resp = requests.get(url)
-    weather_json = weather_resp.json()
-    logging.info("Weather data response received")
 
-    # Replacing Epock with Date
-    for dly_data in weather_json['daily']:
-        dt = dly_data['dt']
-        dt = process_epoch_time(dt)
-        dly_data['dt'] = dt
-    return weather_json['daily']
+    logging.info("Weather data response received")
+    weather_json = weather_resp.json()
+    logging.info(weather_json)
+
+    # Replacing Epoch with Date
+    for dly_data in weather_json['data']:
+        dly_data['dt'] = process_epoch_time(dly_data['dt'])
+    
+    return weather_json['data'][0]
 
 
 # Processing data and writing to output
@@ -129,9 +149,15 @@ def get_data(API_key, city):
 def process_data(API_key, city_coor):
     logging.info("Processing data")
     city_weather_data = {}
+
+    epoch_times = get_epoch_time()
+
     for city in city_coor:
-        logging.info("Getting data for " + city)
-        city_weather_data[city] = get_data(API_key, city_coor[city])
+        city_weather_data[city] = []
+        for ep_tm in epoch_times:
+            logging.info("Getting data for " + city)
+            dly_data = get_data(API_key, city_coor[city], ep_tm)
+            city_weather_data[city].append(dly_data)
 
     logging.info("Writing daily weather data to JSON file")
     with open("../data/staging/city_weather_data.json", "w") as outfile:

@@ -1,3 +1,3 @@
 import data_parser
 
-data_parser.start()
+#data_parser.start()
