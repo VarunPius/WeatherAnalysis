@@ -1,22 +1,40 @@
+######################################################################################################################################################
+# Code Info                                                                                                                                          #
+#                                                                                                                                                    #
+# data_parser.py                                                                                                                                     #
+# Author(s): Varun Pius Rodrigues                                                                                                                    #
+# About: Get data from API and store in local directory                                                                                              #
+######################################################################################################################################################
+
+
+# -------------------------------------------------------------------------------------------------------------------------------------------------- #
+# Library Imports goes here
+# -------------------------------------------------------------------------------------------------------------------------------------------------- #
+
+# System Libraries
+import os
+
+# Internal modules
+from src import basedir, datadir, confdir
+
+# External librabries
 import pandas as pd
 
-df = pd.read_json('../data/staging/city_weather_data.json')
 
-
-def part1():
+def get_city_with_max_temp(df):
     df1 = df.copy()
     df1['max_temp'] = df1.groupby('city')['temp'].transform(lambda x: x.rank(ascending = False))
     df1 = df1[['city', 'dt', 'temp']].loc[df1.max_temp == 1] 
 
-    print(df1)
+    # Results
+    #result_df1 = df1.to_string(index=False)
+    result_df1 = df1.to_json(orient = 'records')
+    print(result_df1)
 
-    print(df1.index)
-    #print(df1)
-    df_p1 = df1.to_string(index=False)
-    print(df_p1)
+    return result_df1
 
 
-def part2():
+def get_weather_agg(df):
     df2 = df.copy()
     
     df2['avg_temp'] = df2.groupby('dt')['temp'].transform(lambda x: x.mean())
@@ -57,10 +75,16 @@ def part2():
 
     print("Debug 5:")
     print(final_df.sort_values('dt'))
-    return final_df
+    
+    # Results
+    #result_df2 = final_df.to_string(index=False)
+    result_df2 = final_df.to_json(orient = 'records')
+    print(result_df2)
+
+    return result_df2
 
 
-def part3():
+def get_weather_agg_alt(df):
     df2 = df.copy()
     
     df2['avg_temp'] = df2.groupby('dt')['temp'].transform(lambda x: x.mean())
@@ -87,19 +111,14 @@ def part3():
     return final_df
 
 
-if __name__ == '__main__':
-    part1()
-    df2 = part2()
-    df3 = part3()
-    print("Final")
-    print("Final")
-    print(df2)
-    print(df3)
+def process_dataframe():
+    stage_data_file = datadir + "/staging/city_weather_data.json"
+    df = pd.read_json(stage_data_file)
+
+    result_df1 = get_city_with_max_temp(df)
+    result_df2 = get_weather_agg(df)
+
+    return result_df1, result_df2
 
 
-'''
-- Build another repository of data that will contain the results of the following calculations from the data stored in step 2.
-    - A dataset containing the location, date and temperature of the highest temperatures reported by location and month.
-    - A dataset containing the average temperature, min temperature, location of min temperature, and location of max temperature per day.
-'''
 

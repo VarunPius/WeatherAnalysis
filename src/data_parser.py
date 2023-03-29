@@ -17,6 +17,8 @@ import time
 import json
 import logging
 
+# Internal modules
+from src import basedir, datadir, confdir
 
 # External librabries
 import requests
@@ -43,7 +45,8 @@ def config_reader():
     logging.info('Reading API keys and coordinates of cities')
     config_json = {}
     yaml=YAML(typ='safe')
-    with open('../resources/config.yml', 'r') as file:
+    config_file = confdir + '/config.yml'
+    with open(config_file, 'r') as file:
         config = yaml.load(file)
 
     API_key = config['API_key']
@@ -163,7 +166,8 @@ def process_data(API_key, city_coor):
             city_weather_data.append(dly_data) #city_weather_data[city_name].append(dly_data)
 
     logging.info("Writing daily weather data to JSON file")
-    with open("../data/staging/city_weather_data.json", "w") as outfile:
+    city_weather_data_file = datadir + '/staging/city_weather_data.json'
+    with open(city_weather_data_file, "w") as outfile:
         json.dump(city_weather_data, outfile)
     
     return
@@ -176,7 +180,8 @@ def start():
     API_key, cities_dict = config_reader()
  
     city_coor = get_coordinates(cities_dict)
-    with open("../data/staging/city_names.json", "w") as outfile:
+    city_names_file = datadir + '/staging/city_names.json'
+    with open(city_names_file, "w") as outfile:
         json.dump(city_coor, outfile)
 
     process_data(API_key, city_coor)
