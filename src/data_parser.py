@@ -84,6 +84,8 @@ def get_coordinates(cities_dict):
         response_json = loc_resp.json()
 
         coor = []
+        city_name = city + ", " + country
+        coor.append(city_name)
         coor.append(response_json[0]['lat'])
         coor.append(response_json[0]['lon'])
 
@@ -125,8 +127,8 @@ def get_epoch_time():
 # -------------------------------------------------------------------------------------------------------------------------------------------------- #
 def get_data(API_key, city, ep_tm):
     logging.info("Initializing city parameters")
-    lat = city[0]
-    lon = city[1]
+    lat = city[1]
+    lon = city[2]
 
     url = f"https://api.openweathermap.org/data/3.0/onecall/timemachine?lat={lat}&lon={lon}&dt={ep_tm}&appid={API_key}"
 
@@ -148,16 +150,17 @@ def get_data(API_key, city, ep_tm):
 # -------------------------------------------------------------------------------------------------------------------------------------------------- #
 def process_data(API_key, city_coor):
     logging.info("Processing data")
-    city_weather_data = {}
+    city_weather_data = [] # {}
 
     epoch_times = get_epoch_time()
 
-    for city in city_coor:
-        city_weather_data[city] = []
+    for city_name, city_vals in city_coor.items():
+        #city_weather_data[city_name] = []
         for ep_tm in epoch_times:
-            logging.info("Getting data for " + city)
-            dly_data = get_data(API_key, city_coor[city], ep_tm)
-            city_weather_data[city].append(dly_data)
+            logging.info("Getting weather data for " + city_name)
+            dly_data = get_data(API_key, city_vals, ep_tm)
+            dly_data['city'] = city_vals[0]
+            city_weather_data.append(dly_data) #city_weather_data[city_name].append(dly_data)
 
     logging.info("Writing daily weather data to JSON file")
     with open("../data/staging/city_weather_data.json", "w") as outfile:
