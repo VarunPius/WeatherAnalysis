@@ -1,0 +1,36 @@
+---
+API_key: <API_Key>
+
+Cities:
+  Vancouver:
+    City: Vancouver
+    Country: CA
+  Toronto:
+    City: Toronto
+    Country: CA
+  Montreal:
+    City: Montreal
+    Country: CA
+  London:
+    City: London
+    Country: GB
+  Dubai:
+    City: Dubai
+    Country: AE
+  Mumbai:
+    City: Mumbai
+    Country: IN
+  Singapore:
+    City: Singapore
+    Country: SG
+  Sydney:
+    City: Sydney
+    Country: AU
+  Seattle:
+    City: Seattle
+    State: WA
+    Country: US
+  New York:
+    City: New York
+    State: NY
+    Country: US
