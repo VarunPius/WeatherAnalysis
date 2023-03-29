@@ -1,0 +1,1234 @@
+[
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680098173,
+        "sunset": 1680143880,
+        "temp": 278.39,
+        "feels_like": 277.04,
+        "pressure": 1012,
+        "humidity": 61,
+        "dew_point": 271.68,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 1.77,
+        "wind_deg": 28,
+        "wind_gust": 1.88,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "city": "Vancouver, CA"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1680011901,
+        "sunset": 1680057390,
+        "temp": 276.43,
+        "feels_like": 275.08,
+        "pressure": 1014,
+        "humidity": 71,
+        "dew_point": 271.85,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 1.54,
+        "wind_deg": 360,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "city": "Vancouver, CA"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679925630,
+        "sunset": 1679970899,
+        "temp": 276.61,
+        "feels_like": 273.37,
+        "pressure": 1024,
+        "humidity": 82,
+        "dew_point": 273.83,
+        "uvi": 0,
+        "clouds": 75,
+        "visibility": 10000,
+        "wind_speed": 3.6,
+        "wind_deg": 90,
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Vancouver, CA"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679839359,
+        "sunset": 1679884408,
+        "temp": 274.31,
+        "feels_like": 271.97,
+        "pressure": 1023,
+        "humidity": 95,
+        "dew_point": 273.6,
+        "uvi": 0,
+        "clouds": 75,
+        "visibility": 10000,
+        "wind_speed": 2.06,
+        "wind_deg": 110,
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Vancouver, CA"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679753087,
+        "sunset": 1679797917,
+        "temp": 275.74,
+        "feels_like": 270.68,
+        "pressure": 1019,
+        "humidity": 94,
+        "dew_point": 274.87,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 6.71,
+        "wind_deg": 270,
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "rain": {
+            "1h": 0.24
+        },
+        "city": "Vancouver, CA"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680087890,
+        "sunset": 1680133177,
+        "temp": 275.33,
+        "feels_like": 271.46,
+        "pressure": 1019,
+        "humidity": 75,
+        "dew_point": 271.57,
+        "uvi": 0,
+        "clouds": 47,
+        "visibility": 10000,
+        "wind_speed": 4.13,
+        "wind_deg": 234,
+        "wind_gust": 9.44,
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "city": "Toronto, CA"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1680001599,
+        "sunset": 1680046706,
+        "temp": 274.39,
+        "feels_like": 270,
+        "pressure": 1021,
+        "humidity": 83,
+        "dew_point": 271.98,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 4.63,
+        "wind_deg": 320,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "Toronto, CA"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679915308,
+        "sunset": 1679960235,
+        "temp": 276.6,
+        "feels_like": 275.27,
+        "pressure": 1018,
+        "humidity": 83,
+        "dew_point": 273.99,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 1.54,
+        "wind_deg": 110,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "Toronto, CA"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679829017,
+        "sunset": 1679873764,
+        "temp": 276.22,
+        "feels_like": 270.4,
+        "pressure": 1009,
+        "humidity": 69,
+        "dew_point": 271.33,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 9.26,
+        "wind_deg": 270,
+        "wind_gust": 14.4,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "Toronto, CA"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679742726,
+        "sunset": 1679787292,
+        "temp": 275.77,
+        "feels_like": 268.84,
+        "pressure": 1008,
+        "humidity": 81,
+        "dew_point": 272.88,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 12.86,
+        "wind_deg": 70,
+        "wind_gust": 19.03,
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "rain": {
+            "1h": 0.27
+        },
+        "city": "Toronto, CA"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680086436,
+        "sunset": 1680131841,
+        "temp": 272.03,
+        "feels_like": 269.34,
+        "pressure": 1020,
+        "humidity": 78,
+        "dew_point": 269.07,
+        "uvi": 0,
+        "clouds": 7,
+        "visibility": 10000,
+        "wind_speed": 2.04,
+        "wind_deg": 211,
+        "wind_gust": 4.38,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "Montreal, CA"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1680000151,
+        "sunset": 1680045364,
+        "temp": 273.22,
+        "feels_like": 267.96,
+        "pressure": 1020,
+        "humidity": 74,
+        "dew_point": 269.6,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 5.66,
+        "wind_deg": 20,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "Montreal, CA"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679913866,
+        "sunset": 1679958886,
+        "temp": 272.22,
+        "feels_like": 268.45,
+        "pressure": 1017,
+        "humidity": 86,
+        "dew_point": 270.41,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 3.09,
+        "wind_deg": 230,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "Montreal, CA"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679827581,
+        "sunset": 1679872409,
+        "temp": 275.99,
+        "feels_like": 270.26,
+        "pressure": 1002,
+        "humidity": 84,
+        "dew_point": 273.56,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 8.75,
+        "wind_deg": 210,
+        "wind_gust": 11.32,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "Montreal, CA"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679741297,
+        "sunset": 1679785932,
+        "temp": 270.82,
+        "feels_like": 265.23,
+        "pressure": 1021,
+        "humidity": 73,
+        "dew_point": 267.12,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 5.14,
+        "wind_deg": 80,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "Montreal, CA"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680068609,
+        "sunset": 1680114423,
+        "temp": 284.81,
+        "feels_like": 284.54,
+        "pressure": 1010,
+        "humidity": 96,
+        "dew_point": 284.19,
+        "uvi": 0.64,
+        "clouds": 100,
+        "visibility": 4753,
+        "wind_speed": 4.77,
+        "wind_deg": 192,
+        "wind_gust": 13.49,
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "rain": {
+            "1h": 0.33
+        },
+        "city": "London, GB"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1679982347,
+        "sunset": 1680027923,
+        "temp": 280.62,
+        "feels_like": 276.94,
+        "pressure": 1017,
+        "humidity": 87,
+        "dew_point": 278.6,
+        "uvi": 0.88,
+        "clouds": 75,
+        "visibility": 10000,
+        "wind_speed": 6.69,
+        "wind_deg": 210,
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "London, GB"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679896085,
+        "sunset": 1679941423,
+        "temp": 282.97,
+        "feels_like": 281.64,
+        "pressure": 1025,
+        "humidity": 41,
+        "dew_point": 270.67,
+        "uvi": 2.86,
+        "clouds": 29,
+        "visibility": 10000,
+        "wind_speed": 2.68,
+        "wind_deg": 59,
+        "wind_gust": 3.13,
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "city": "London, GB"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679809823,
+        "sunset": 1679854923,
+        "temp": 282.21,
+        "feels_like": 280.81,
+        "pressure": 1003,
+        "humidity": 89,
+        "dew_point": 280.5,
+        "uvi": 0.79,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 2.57,
+        "wind_deg": 0,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "London, GB"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679723561,
+        "sunset": 1679768423,
+        "temp": 286.22,
+        "feels_like": 285.23,
+        "pressure": 1002,
+        "humidity": 63,
+        "dew_point": 279.35,
+        "uvi": 1.55,
+        "clouds": 75,
+        "visibility": 10000,
+        "wind_speed": 7.72,
+        "wind_deg": 270,
+        "wind_gust": 12.86,
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "London, GB"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680056035,
+        "sunset": 1680100402,
+        "temp": 297.18,
+        "feels_like": 297.26,
+        "pressure": 1010,
+        "humidity": 62,
+        "dew_point": 289.45,
+        "uvi": 5.2,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 8.49,
+        "wind_deg": 287,
+        "wind_gust": 8.5,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "Dubai, AE"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1679969698,
+        "sunset": 1680013976,
+        "temp": 302.17,
+        "feels_like": 301.52,
+        "pressure": 1010,
+        "humidity": 37,
+        "dew_point": 286.02,
+        "uvi": 5.01,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 6.69,
+        "wind_deg": 270,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "Dubai, AE"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679883362,
+        "sunset": 1679927551,
+        "temp": 305.17,
+        "feels_like": 304.95,
+        "pressure": 1008,
+        "humidity": 37,
+        "dew_point": 288.66,
+        "uvi": 5.21,
+        "clouds": 20,
+        "visibility": 10000,
+        "wind_speed": 5.14,
+        "wind_deg": 350,
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+            }
+        ],
+        "city": "Dubai, AE"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679797025,
+        "sunset": 1679841125,
+        "temp": 302.17,
+        "feels_like": 302.6,
+        "pressure": 1009,
+        "humidity": 48,
+        "dew_point": 290.05,
+        "uvi": 5.19,
+        "clouds": 20,
+        "visibility": 10000,
+        "wind_speed": 6.17,
+        "wind_deg": 330,
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+            }
+        ],
+        "city": "Dubai, AE"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679710689,
+        "sunset": 1679754699,
+        "temp": 299.17,
+        "feels_like": 299.17,
+        "pressure": 1011,
+        "humidity": 53,
+        "dew_point": 288.86,
+        "uvi": 5.2,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 5.66,
+        "wind_deg": 310,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "Dubai, AE"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680051923,
+        "sunset": 1680096074,
+        "temp": 301.56,
+        "feels_like": 302.5,
+        "pressure": 1009,
+        "humidity": 54,
+        "dew_point": 291.36,
+        "uvi": 2.68,
+        "clouds": 16,
+        "visibility": 10000,
+        "wind_speed": 5.41,
+        "wind_deg": 274,
+        "wind_gust": 4.92,
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+            }
+        ],
+        "city": "Mumbai, IN"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1679965575,
+        "sunset": 1680009660,
+        "temp": 302.18,
+        "feels_like": 303.93,
+        "pressure": 1008,
+        "humidity": 58,
+        "dew_point": 293.08,
+        "uvi": 2.68,
+        "clouds": 20,
+        "visibility": 6000,
+        "wind_speed": 6.69,
+        "wind_deg": 280,
+        "weather": [
+            {
+                "id": 711,
+                "main": "Smoke",
+                "description": "smoke",
+                "icon": "50d"
+            }
+        ],
+        "city": "Mumbai, IN"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679879226,
+        "sunset": 1679923247,
+        "temp": 302.18,
+        "feels_like": 303.93,
+        "pressure": 1009,
+        "humidity": 58,
+        "dew_point": 293.08,
+        "uvi": 2.69,
+        "clouds": 20,
+        "visibility": 5000,
+        "wind_speed": 6.17,
+        "wind_deg": 270,
+        "weather": [
+            {
+                "id": 711,
+                "main": "Smoke",
+                "description": "smoke",
+                "icon": "50d"
+            }
+        ],
+        "city": "Mumbai, IN"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679792878,
+        "sunset": 1679836833,
+        "temp": 302.18,
+        "feels_like": 302.97,
+        "pressure": 1009,
+        "humidity": 51,
+        "dew_point": 291.02,
+        "uvi": 2.68,
+        "clouds": 20,
+        "visibility": 6000,
+        "wind_speed": 4.63,
+        "wind_deg": 300,
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+            }
+        ],
+        "city": "Mumbai, IN"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679706530,
+        "sunset": 1679750419,
+        "temp": 302.18,
+        "feels_like": 301.97,
+        "pressure": 1010,
+        "humidity": 42,
+        "dew_point": 287.98,
+        "uvi": 2.61,
+        "clouds": 2,
+        "visibility": 6000,
+        "wind_speed": 5.14,
+        "wind_deg": 290,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "Mumbai, IN"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680044750,
+        "sunset": 1680088383,
+        "temp": 302.04,
+        "feels_like": 306,
+        "pressure": 1008,
+        "humidity": 72,
+        "dew_point": 296.48,
+        "uvi": 0,
+        "clouds": 59,
+        "visibility": 10000,
+        "wind_speed": 3.64,
+        "wind_deg": 57,
+        "wind_gust": 4.57,
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "rain": {
+            "1h": 0.12
+        },
+        "city": "Singapore, SG"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1679958371,
+        "sunset": 1680002000,
+        "temp": 303.79,
+        "feels_like": 308.21,
+        "pressure": 1009,
+        "humidity": 64,
+        "dew_point": 296.2,
+        "uvi": 0,
+        "clouds": 75,
+        "visibility": 10000,
+        "wind_speed": 4.12,
+        "wind_deg": 20,
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Singapore, SG"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679871992,
+        "sunset": 1679915617,
+        "temp": 299.1,
+        "feels_like": 299.1,
+        "pressure": 1007,
+        "humidity": 90,
+        "dew_point": 297.33,
+        "uvi": 0,
+        "clouds": 75,
+        "visibility": 8000,
+        "wind_speed": 2.06,
+        "wind_deg": 20,
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Singapore, SG"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679785613,
+        "sunset": 1679829233,
+        "temp": 299.85,
+        "feels_like": 301.86,
+        "pressure": 1007,
+        "humidity": 75,
+        "dew_point": 295.05,
+        "uvi": 0,
+        "clouds": 40,
+        "visibility": 10000,
+        "wind_speed": 2.57,
+        "wind_deg": 330,
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "city": "Singapore, SG"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679699234,
+        "sunset": 1679742850,
+        "temp": 298.14,
+        "feels_like": 299.04,
+        "pressure": 1009,
+        "humidity": 90,
+        "dew_point": 296.38,
+        "uvi": 0,
+        "clouds": 40,
+        "visibility": 9000,
+        "wind_speed": 2.57,
+        "wind_deg": 350,
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "city": "Singapore, SG"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680033862,
+        "sunset": 1680076545,
+        "temp": 293.47,
+        "feels_like": 293.23,
+        "pressure": 1005,
+        "humidity": 64,
+        "dew_point": 286.44,
+        "uvi": 0,
+        "clouds": 17,
+        "visibility": 10000,
+        "wind_speed": 2.92,
+        "wind_deg": 252,
+        "wind_gust": 5.44,
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02n"
+            }
+        ],
+        "city": "Sydney, AU"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1679947418,
+        "sunset": 1679990227,
+        "temp": 292.31,
+        "feels_like": 292.61,
+        "pressure": 1013,
+        "humidity": 89,
+        "dew_point": 290.45,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 1.34,
+        "wind_deg": 336,
+        "wind_gust": 2.68,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Sydney, AU"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679860974,
+        "sunset": 1679903909,
+        "temp": 294.6,
+        "feels_like": 295.07,
+        "pressure": 1013,
+        "humidity": 87,
+        "dew_point": 292.35,
+        "uvi": 0,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 0.89,
+        "wind_deg": 298,
+        "wind_gust": 1.79,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Sydney, AU"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679774530,
+        "sunset": 1679817591,
+        "temp": 293.93,
+        "feels_like": 294.28,
+        "pressure": 1016,
+        "humidity": 85,
+        "dew_point": 291.32,
+        "uvi": 0,
+        "clouds": 75,
+        "visibility": 10000,
+        "wind_speed": 5.66,
+        "wind_deg": 20,
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Sydney, AU"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679688085,
+        "sunset": 1679731273,
+        "temp": 293.48,
+        "feels_like": 293.45,
+        "pressure": 1019,
+        "humidity": 72,
+        "dew_point": 288.27,
+        "uvi": 0,
+        "clouds": 75,
+        "visibility": 10000,
+        "wind_speed": 5.66,
+        "wind_deg": 80,
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Sydney, AU"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680098049,
+        "sunset": 1680143628,
+        "temp": 278.6,
+        "feels_like": 276.89,
+        "pressure": 1010,
+        "humidity": 78,
+        "dew_point": 275.08,
+        "uvi": 0,
+        "clouds": 87,
+        "visibility": 10000,
+        "wind_speed": 2.16,
+        "wind_deg": 19,
+        "wind_gust": 5.11,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Seattle, US"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1680011771,
+        "sunset": 1680057144,
+        "temp": 281.17,
+        "feels_like": 279.98,
+        "pressure": 1011,
+        "humidity": 48,
+        "dew_point": 271.1,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 2.06,
+        "wind_deg": 20,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Seattle, US"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679925493,
+        "sunset": 1679970659,
+        "temp": 275.29,
+        "feels_like": 273.44,
+        "pressure": 1026,
+        "humidity": 85,
+        "dew_point": 273.05,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 1.79,
+        "wind_deg": 63,
+        "wind_gust": 1.79,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "city": "Seattle, US"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679839216,
+        "sunset": 1679884175,
+        "temp": 277,
+        "feels_like": 274.18,
+        "pressure": 1025,
+        "humidity": 85,
+        "dew_point": 274.71,
+        "uvi": 0,
+        "clouds": 88,
+        "visibility": 10000,
+        "wind_speed": 3.13,
+        "wind_deg": 175,
+        "wind_gust": 7.15,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Seattle, US"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679752938,
+        "sunset": 1679797690,
+        "temp": 276.06,
+        "feels_like": 273.07,
+        "pressure": 1024,
+        "humidity": 88,
+        "dew_point": 274.27,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 3.09,
+        "wind_deg": 170,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "city": "Seattle, US"
+    },
+    {
+        "dt": "2023-03-29",
+        "sunrise": 1680086689,
+        "sunset": 1680131798,
+        "temp": 277.57,
+        "feels_like": 275.33,
+        "pressure": 1022,
+        "humidity": 51,
+        "dew_point": 268.87,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 2.54,
+        "wind_deg": 6,
+        "wind_gust": 4.13,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "New York, US"
+    },
+    {
+        "dt": "2023-03-28",
+        "sunrise": 1680000389,
+        "sunset": 1680045335,
+        "temp": 279.84,
+        "feels_like": 277.31,
+        "pressure": 1018,
+        "humidity": 82,
+        "dew_point": 276.99,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 3.6,
+        "wind_deg": 350,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "New York, US"
+    },
+    {
+        "dt": "2023-03-27",
+        "sunrise": 1679914089,
+        "sunset": 1679958873,
+        "temp": 281.89,
+        "feels_like": 280.09,
+        "pressure": 1017,
+        "humidity": 41,
+        "dew_point": 269.81,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 3.09,
+        "wind_deg": 60,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "New York, US"
+    },
+    {
+        "dt": "2023-03-26",
+        "sunrise": 1679827789,
+        "sunset": 1679872411,
+        "temp": 280.06,
+        "feels_like": 276.22,
+        "pressure": 1012,
+        "humidity": 80,
+        "dew_point": 276.85,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 6.71,
+        "wind_deg": 360,
+        "wind_gust": 9.83,
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "city": "New York, US"
+    },
+    {
+        "dt": "2023-03-25",
+        "sunrise": 1679741490,
+        "sunset": 1679785948,
+        "temp": 279.96,
+        "feels_like": 275.61,
+        "pressure": 1018,
+        "humidity": 75,
+        "dew_point": 275.84,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 8.23,
+        "wind_deg": 100,
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "city": "New York, US"
+    }
+]

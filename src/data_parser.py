@@ -166,7 +166,7 @@ def process_data(API_key, city_coor):
             city_weather_data.append(dly_data) #city_weather_data[city_name].append(dly_data)
 
     logging.info("Writing daily weather data to JSON file")
-    city_weather_data_file = datadir + '/staging/city_weather_data.json'
+    city_weather_data_file = datadir + '/city_weather_data.json'
     with open(city_weather_data_file, "w") as outfile:
         json.dump(city_weather_data, outfile)
     
@@ -180,7 +180,7 @@ def start():
     API_key, cities_dict = config_reader()
  
     city_coor = get_coordinates(cities_dict)
-    city_names_file = datadir + '/staging/city_names.json'
+    city_names_file = datadir + '/city_names.json'
     with open(city_names_file, "w") as outfile:
         json.dump(city_coor, outfile)
 

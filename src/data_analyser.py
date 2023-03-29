@@ -148,7 +148,7 @@ def get_weather_agg_alt(df):
 
 def process_dataframe():
     logging.info('Runner for fetching results')
-    stage_data_file = datadir + "/staging/city_weather_data.json"
+    stage_data_file = datadir + "/city_weather_data.json"
     df = pd.read_json(stage_data_file)
 
     result_df1 = get_city_with_max_temp(df)

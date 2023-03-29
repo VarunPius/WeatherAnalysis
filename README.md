@@ -22,7 +22,8 @@ To run the project, you need to have **Docker** installed in your system. Next d
     ```
 - Go to the following location in your API client (or browser) to check if FastAPI/Uvicorn Gateway is up
     You should see `{"Hello":"World"}` as output
-- Go to the following location to start pulling data from OpenWeather: http://localhost:8001/getdata
+- Go to the following location to start pulling data from OpenWeather: http://localhost:8001/getdata.
+    This takes some time as data is being extracted for each city for each day each API call (so total of 50 calls). At the end, you should see the status as `{"Status":"Data Obtained"}`
 - Go to the following location to get the results: http://localhost:8001/getresults
 
 # Considerations:
